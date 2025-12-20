@@ -17,9 +17,8 @@
 [![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg?style=flat&logo=paypal)](https://www.paypal.com/donate/?business=N4JPSTUQHRJM8&no_recurring=0&item_name=Fan%20Control%20software%20creator%20and%20maintainer.%20Donations%20allow%20me%20to%20continue%20working%20on%20this%20project%20while%20keeping%20it%20free%20to%20use.%20Thank%20you%20for%20contributing%21&currency_code=USD)
 
 ## Announcement
-
-[V238](https://github.com/Rem0o/FanControl.Releases/releases/tag/V238) and above now ships with a [PawnIO](https://pawnio.eu/) build of [LHM](https://github.com/LibreHardwareMonitor/LibreHardwareMonitor). This will fix the anti-virus problems encountered with WinRing0, as it is no longer shipped with FanControl.  You may still use V237 or any version before if you want to keep the WinRing0 version.
-
+* FanControl, its installer and the updater now have a signed executable, which should help with AVs false flagging.
+* [V238](https://github.com/Rem0o/FanControl.Releases/releases/tag/V238) and above now ships with a [PawnIO](https://pawnio.eu/) build of [LHM](https://github.com/LibreHardwareMonitor/LibreHardwareMonitor). This will fix the anti-virus problems encountered with WinRing0, as it is no longer shipped with FanControl.  You may still use V237 or any version before if you want to keep the WinRing0 version.
 There is a known issue where FACEIT will block the new driver. See this [issue](https://github.com/namazso/PawnIO.Setup/issues/1).
 
 ## WARNING ( V237 and below )
@@ -32,15 +31,6 @@ If you experience this issue, you may:
 * Update to the latest version
 * (Can't officialy recommend) whitelist/exclude the detection in Windows Security/Defender. Read the [official microsoft response/article](https://support.microsoft.com/en-us/windows/microsoft-defender-antivirus-alert-vulnerabledriver-winnt-winring0-eb057830-d77b-41a2-9a34-015a5d203c42) carefully.
 * With [V235 to V237](https://github.com/Rem0o/FanControl.Releases/releases), you can easily [use an alternative LHM branch](https://github.com/Rem0o/FanControl.Releases/issues/3410#issuecomment-3258597822) that doesn't use WinRing0. Consider this a Beta, as it hasn't been widely tested yet. It may not work, be unstable, not be reliable, you get the idea.
-
-
-## New
-* New seperate "Up" and "Down" hysteresis for graph, linear and trigger fan curves
-![Fan Control](Images/Hysteresis.png)
-* The software is now open for translations. Contributions are welcomed here [FanControl.i18n](https://github.com/Rem0o/FanControl.i18n)
-* AMD GPU support through [ADLXWrapper](https://github.com/Rem0o/ADLXWrapper).
-* Fan calibration and RPM mode for fan curves. See [discussion](https://github.com/Rem0o/FanControl.Releases/discussions/2333).
-* Installer now available in addition to the portable version of the application. Both .NET 4.8 and 8.0 versions of the application are available as such [here](https://github.com/Rem0o/FanControl.Releases/releases).
 
 ## Installation
 
