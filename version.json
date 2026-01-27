@@ -1,11 +1,11 @@
 {
-    "Number":  252,
-    "Message":  "- Clicking the notification now opens up the main window\r\n- Update LibreHardwareMonitorLib\r\n- Improve hardware added/removed handling",
+    "Number":  255,
+    "Message":  "- Pre-pairing some LHM control/fan sensors\r\n- Update LibreHardwareMonitorLib",
     "Checksums":  {
-                      "FanControl_4_8":  "177569DB68C4CDAC326644A19CAC0E61",
-                      "FanControl_10_0":  "7E913B1CF16F03EF2CEDEC804675BCEB",
-                      "FanControl_4_8_Installer":  "EBB3B57B14482372E8460F7803EF84FA",
-                      "FanControl_10_0_Installer":  "62C44049BE01A789AE4546E6F0107658",
+                      "FanControl_4_8":  "E7416CFC51034DDA8A11A6679EA4E6FE",
+                      "FanControl_10_0":  "E7AB0CFC771AB3967A30957215AC3F14",
+                      "FanControl_4_8_Installer":  "EEB881863D356CF2542F5EE5426C82C5",
+                      "FanControl_10_0_Installer":  "85EC57630690C453D4EAEDDE77E3CA74",
                       "Updater":  "8445CA16D4EC4D0791F71C025B56FF0C"
                   }
 }
